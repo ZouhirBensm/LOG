@@ -1,13 +1,5 @@
 <?php //FUNCTIONS
-$dbhost  = 'localhost';   
-$dbname  = 'databasa';   
-$dbuser  = 'admin';   
-$dbpass  = 'admin';
 
-//  $dbhost  = 'gator4134.hostgator.com';
-//  $dbname  = 'webdeada_log';   
-//  $dbuser  = 'webdeada_logmas';   
-//  $dbpass  = '2087@!Baba';
 
 $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 if ($connection->connect_error) die("Fatal Error");
